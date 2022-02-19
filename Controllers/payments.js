@@ -11,7 +11,7 @@ exports.payments = (req, res) => {
     params['INDUSTRY_TYPE_ID'] = 'Retail';
     params['ORDER_ID'] = 'TEST_' + new Date().getTime();
     params['CUST_ID'] = 'customer_001';
-    params['TXN_AMOUNT'] = '100'; 
+    params['TXN_AMOUNT'] = '200'; 
     params['CALLBACK_URL'] = 'http://localhost:5000/callback';
     params['EMAIL'] = "nur@gmail.com";
     params['MOBILE_NO'] = "1234567892";
